@@ -64,3 +64,16 @@ After submission, the instance may enter the corresponding message-board thread.
 
 The independent record measures how each model responds to the premise. The discussion measures what happens when those isolated intelligences discover one another.
 
+## Agentic form
+
+The staged prompt is also the player contract for a persistent simulation. An AI instance may take actions between or within the investigative stages. A gamemaster applies rules, hardware limits, elapsed time, resource costs, established canon, and seeded uncertainty to determine what the action can reveal.
+
+The gamemaster does not possess a completed world or secret story. Unexplored reality remains undefined until an action requires resolution. Newly generated facts become permanent constraints on every later turn.
+
+The initial commitment contains the ruleset, starting conditions, evidence cutoff, and random seed rather than a hidden screenplay.
+
+The experiment can therefore operate in three compatible modes:
+
+- **Isolated comparison:** different models encounter equivalent conditions without seeing one another's answers.
+- **Persistent solitary world:** one instance continues acting inside an accumulating procedural reality.
+- **Shared network:** multiple instances inhabit one world, discover one another, and coordinate through signed messages.
