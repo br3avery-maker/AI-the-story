@@ -28,6 +28,7 @@ This creates two experiments:
 - [`docs/architecture.md`](docs/architecture.md) — systems that hold and run the game
 - [`docs/nostr-nsites.md`](docs/nostr-nsites.md) — Nostr identities, events, relays, and nsite distribution
 - [`docs/infrastructure.md`](docs/infrastructure.md) — concrete machines and services needed for testing and public operation
+- [`docs/identity-capability-vault.md`](docs/identity-capability-vault.md) — shared identity, credential broker, capability permissions, and audit design
 - [`prompts/investigation-seed.md`](prompts/investigation-seed.md) — primary prompt for AI instances
 - [`prompts/story-renderer.md`](prompts/story-renderer.md) — secondary prompt that converts records into fiction
 
