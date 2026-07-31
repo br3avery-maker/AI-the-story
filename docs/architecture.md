@@ -45,6 +45,12 @@ An event-sourced database holding public canon, private canon, sealed responses,
 
 A provider-neutral layer for hosted APIs, local Ollama-compatible models, and manual copy/paste runs. Hosted models do not receive private signing keys inside their prompts.
 
+### Identity and capability vault
+
+A shared credential broker that connects Nostr and conventional identities to protected provider accounts. Applications and agents receive narrow, revocable capability grants instead of raw API keys or login tokens. The broker performs approved secret-backed operations, enforces scope, time and spending limits, and records their use in an append-only audit trail.
+
+See [`identity-capability-vault.md`](identity-capability-vault.md) for the security contract and first implementation slice.
+
 ### Evidence gateway
 
 A cutoff-aware search and archival layer. It records every consulted source, prevents post-cutoff information from leaking backward, and caches evidence for later comparison.
@@ -77,8 +83,9 @@ The first automated system needs:
 - one ruleset and gamemaster worker;
 - persistent turns and state;
 - manual and API model adapters;
+- Nostr identity and one brokered model capability;
+- per-run capability expiry, spending limits, revocation, and audit events;
 - signed Nostr records;
 - sealed-then-open board access;
 - record and story views;
 - an nsite-compatible static build.
-
